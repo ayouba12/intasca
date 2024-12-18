@@ -1,0 +1,7 @@
+@layer base {
+  :root {
+    --color-primary: 34 197 94;
+    --color-primary-light: 74 222 128;
+    --color-primary-dark: 22 163 74;
+  }
+}

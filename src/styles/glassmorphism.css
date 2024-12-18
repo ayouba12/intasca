@@ -1,0 +1,17 @@
+@layer components {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+  
+  .glass-card {
+    @apply glass rounded-2xl;
+  }
+  
+  .glass-button {
+    @apply glass rounded-full transition-all hover:bg-white/80 active:scale-95;
+  }
+  
+  .glass-input {
+    @apply glass rounded-lg border-white/30 focus:border-green-400/50 focus:ring-2 focus:ring-green-400/30;
+  }
+}
